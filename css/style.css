@@ -1,3 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(239, 220, 249);
+}
 h1 {
-  color: aqua;
+  color: rgb(0, 0, 9);
+  text-align: center;
+}
+footer {
+  display: block;
+  text-align: center;
+}
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 500px;
+  margin: 40px auto;
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+}
+p {
+  text-align: center;
+  padding: 50px;
 }
